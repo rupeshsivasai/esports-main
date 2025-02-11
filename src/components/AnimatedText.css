@@ -1,0 +1,31 @@
+.text-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .animated-text {
+    font-size: 3.9rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    animation: fadeInOut 3s ease-in-out infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    20% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    80% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+  

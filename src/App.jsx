@@ -3,6 +3,7 @@ import "./App.css";
 import logo from "./assets/logo.jpg";
 import GameCard from "./components/GameCard";
 import EventCard from "./components/EventCard";
+import AnimatedText from "./components/AnimatedText";
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
 
       <div className="div2">
         <h1 style={{ textAlign: "center", fontSize: "4rem" }}>
-          Prepare for chaos, where only the strongest survive!
+          <AnimatedText/>
         </h1>
       </div>
 
