@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: white;
+  background-image: url("https://i.pinimg.com/736x/c6/0a/e3/c60ae36da9bc177ae261168de46732b7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: rgb(255, 255, 255);
+  border-radius: 12px;
+  scroll-behavior: smooth;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1200px;
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 6.5rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  background-color: #2c2c2c;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  padding: 11px 14px;
+  border-radius: 8px;
+}
+
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #000000;
+  border: 0.1px solid black;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.login,
+.signup {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.login {
+  background: #ae2323;
+  color: rgb(255, 255, 255);
+}
+
+.signup {
+  background: rgb(13, 95, 211);
+  color: rgb(255, 255, 255);
+}
+
+.login:hover,
+.signup:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.games h2 {
+  text-align: center;
+}
+
+.sechead {
+  text-align: center;
+  font-size: 2rem;
+  color: #cecece;
+}
+
+.gamecard {
+  width: 20rem;
+  height: 30rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  margin: 1rem;
+}
+
+.gamecard img {
+  width: 100%;
+  height: 42%;
+
+  border-radius: 10px 10px;
+}
+
+.gamecard h5 {
+  font-size: 1.3rem;
+  color: #121212;
+  text-align: center;
+}
+
+.gamecard button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  background-color: #0b0b0b;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.gamecard button:hover {
+  color: #0b0b0b;
+  background-color: #ffffff;
+  border: 2px solid rgba(0, 0, 0, 0.594);
+}
+
+.gamecard p {
+  font-size: 1rem;
+  color: #121212;
+  text-align: center;
+  font-weight: 700;
+}
+
+.gamecarddiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.registernow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.events {
+  height: 100vh;
+  color: #000000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7f5;
+}
+
+.eventchild {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.rowcard {
+  display: flex;
+}
+
+.eventcard {
+  border: 1px solid black;
+  padding: 0.2rem;
+  margin: 0.3rem;
+  border-radius: 15px;
+  background-color: #121212;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  opacity: 2;
+  backdrop-filter: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+.eventcard button {
+  background-color: #ffffff;
+  color: #ae2323;
+  border: none;
+  font-weight: 900;
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 13px;
+  margin: 0.4rem;
+}
+
+.eventcard button:hover {
+  color: white;
+  background-color: black;
+}
+
+.newlaunches {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2rem;
+  height: 100%;
+  padding-bottom: 2rem;
+  width: 100%;
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+.newlaunches p {
+  padding: 2rem;
+}
+
+.newlaunches img {
+  width: 30rem;
+  border-radius: 45px;
+  padding: 1rem;
+}
+
+.launchchild {
+  background-color: #ae2323;
+  color: white;
+  margin: 1rem;
+  border-radius: 15px;
+}
+
+.aboutus {
+  background-color: #cecece;
+  color: #0b0b0b;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4rem;
+}
+
+.footchild {
+  display: flex;
+  align-items: center;
+  word-spacing: 30px;
+}
