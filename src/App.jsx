@@ -27,7 +27,7 @@ function App() {
       </div>
 
       <div className="div2">
-        <h1 style={{ textAlign: "center" }}>
+        <h1 style={{ textAlign: "center", fontSize: "4rem" }}>
           Prepare for chaos, where only the strongest survive!
         </h1>
       </div>
